@@ -26,7 +26,7 @@ body {
 
 #dealer-cards img{
     animation: myanimation 2s;
-    height: 262.5px;
+    height: 255px;
     width: 187.5px;
     margin: 1px;
   
@@ -35,7 +35,7 @@ body {
 
 #your-cards img{
     animation: myanimation 2s;
-    height: 262.5px;
+    height: 255px;
     width: 187.5px;
     margin: 1px;
     

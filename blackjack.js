@@ -219,40 +219,40 @@ function count2(){
 
 }
 function basicStrategy(){
-    var action;
+    var action=2;
     // see if double down
     if (yourAceCount==1){
-        if(yourSum>=13 && yourSum<=16 && (dealerSum==5 || dealerSum==6)) action ="double down";
-        if ((yourSum==17 || yourSum==18) && dealerSum<7)action ="double down";
+        if(yourSum>=13 && yourSum<=16 && (dealerSum==5 || dealerSum==6)) {action ="double down"};
+        if ((yourSum==17 || yourSum==18) && dealerSum<7){action ="double down"};
     } else {
-        if (yourSum==9 && dealerSum<7) action="double down";
-        if (yourSum==10 && dealerSum<10) action="double down";
-        if(yourSum==11) action="double down";
+        if (yourSum==9 && dealerSum<7) {action="double down"};
+        if (yourSum==10 && dealerSum<10) {action="double down"};
+        if(yourSum==11) {action="double down"};
     }
     // hit or stay
     if(yourAceCount==1){
-        if(yourSum<18)action="hit";
-    if (yourSum>18)action="stay";
-    if(yourSum<12)action="hit";
-        
+        if(yourSum<18){action="hit"};
+    if (yourSum>18){action="stay"};
+    if(yourSum<12){action="hit"};
+    }
     if(dealerSum<7){
-        if(yoursum== 12 && (dealerSum==2 || dealerSum==3)){
+        if(yourSum== 12 && (dealerSum==2 || dealerSum==3)){
             action="hit"
         }else{
             action="stay"
         }
     } else {
-        if(total<17){
+        if(yourSum < 17){
             action="hit"
         } else{
             action="stay"
-        }
-       
+        }}
+        window.alert(action)
 }
- 
-}
-window.alert(action)
-}
+
+
+
+
     
     
  
