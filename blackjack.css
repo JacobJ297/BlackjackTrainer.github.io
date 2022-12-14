@@ -1,104 +1,88 @@
 body {
-    background-color: rgb(15, 131, 40);
-    font-family: Helvetica, sans-serif;
-    text-align: center;
-    color: white;
-    text-shadow: 2px 5px 12px rgba(0, 0, 0, 0.55);
-    font-size: 15px;
-    
+  background-color: rgb(15, 131, 40);
+  font-family: Helvetica, sans-serif;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 5px 12px rgba(0, 0, 0, 0.55);
+  font-size: 15px;
 }
-@keyframes myanimation
-{
-    from {
-        transform: translateX(500%) rotate(90deg);
-        
-    }
-    to {
-        transform: translateX(0%) rotate(0deg);
-        
-        
-    }
+@keyframes myanimation {
+  from {
+    transform: translateX(500%) rotate(90deg);
+  }
+  to {
+    transform: translateX(0%) rotate(0deg);
+  }
 }
 #hidden {
-    animation: myanimation 2s;
-    
+  animation: myanimation 2s;
 }
 
-#dealer-cards img{
-    animation: myanimation 2s;
-    height: 255px;
-    width: 187.5px;
-    margin: 1px;
-  
-
+#dealer-cards img {
+  animation: myanimation 2s;
+  height: 255px;
+  width: 187.5px;
+  margin: 1px;
 }
 
-#your-cards img{
-    animation: myanimation 2s;
-    height: 255px;
-    width: 187.5px;
-    margin: 1px;
-    
-
+#your-cards img {
+  animation: myanimation 2s;
+  height: 255px;
+  width: 187.5px;
+  margin: 1px;
 }
 
 .btn {
-    background-color: rgb(255, 255, 255);
-    width: 100px;
-    height: 50px;
-    font-size: 20px;
-    margin: 1px;
+  background-color: rgb(255, 255, 255);
+  width: 100px;
+  height: 50px;
+  font-size: 20px;
+  margin: 1px;
 }
 
-#reset{
-    width: 120px;
+#reset {
+  width: 120px;
 }
 
-#ten{
-    background-image: url("./cards/100.png");
-    background-color:transparent;
-    width: 100px;
-    height: 100px;
-    border: none;
-    background-size: cover;
-    
+#ten {
+  background-image: url("./cards/100.png");
+  background-color: transparent;
+  width: 100px;
+  height: 100px;
+  border: none;
+  background-size: cover;
 }
 
-#thousand{
-    background-image: url("./cards/1000.png");
-    background-color:transparent;
-    width: 100px;
-    height: 100px;
-    border: none;
-    background-size: cover;
-    
+#thousand {
+  background-image: url("./cards/1000.png");
+  background-color: transparent;
+  width: 100px;
+  height: 100px;
+  border: none;
+  background-size: cover;
 }
-#betdiv{
-    overflow: hidden;
-    white-space: nowrap;
-    font-family: Helvetica, sans-serif;
-    text-align: center;
-    color: white;
-    text-shadow: 2px 5px 12px rgba(0, 0, 0, 0.55);
-    font-size: 15px;
-    
+#betdiv {
+  overflow: hidden;
+  white-space: nowrap;
+  font-family: Helvetica, sans-serif;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 5px 12px rgba(0, 0, 0, 0.55);
+  font-size: 15px;
 }
-.bet{
-    overflow: hidden;
-    white-space: nowrap;
-    font-family: Helvetica, sans-serif;
-    text-align: center;
-    color: white;
-    text-shadow: 2px 5px 12px rgba(0, 0, 0, 0.55);
-    font-size: 20px;
-    
+.bet {
+  overflow: hidden;
+  white-space: nowrap;
+  font-family: Helvetica, sans-serif;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 5px 12px rgba(0, 0, 0, 0.55);
+  font-size: 20px;
 }
-.text{
-    font-family: Helvetica, sans-serif;
-    text-align: center;
-    color: white;
-    text-shadow: 2px 5px 12px rgba(0, 0, 0, 0.55);
-    font-size: 15px;
-     
+.text {
+  font-family: Helvetica, sans-serif;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 5px 12px rgba(0, 0, 0, 0.55);
+  font-size: 15px;
 }
-
